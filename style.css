@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Roboto" sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+    scroll-behavior: smooth;
+ background-color: grey;
+
+}
+header{
+    background-color: rgb(250, 128, 148);
+    position: fixed;
+    padding: 15px;
+    width: 100vw;
+    top: 0;
+    z-index: 100;
+    border: 5px solid lightgreen;
+    outline: 3px solid black;
+    border-radius: 45px;
+     text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+    box-shadow: 8px 8px 44px blue inset;
+ 
+
+}
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255); 
+    padding: 20px 0;
+    
+} */
+.hero{
+    display: flex;
+    gap: 44px;
+  
+}
+.hero h1{
+    text-align: center;
+    font-size: 31px;
+    /* color: green; */
+   
+}
+.hero h2{
+        text-align: right;
+        font-size: 30px;
+        
+        
+}
+.hero h3{
+      text-align: left;
+      font-size: 30px;
+}
+
+.HERO .container {
+    font-size: 40px;
+    margin-top: 110px;
+    /* margin-left: 213px; */
+    padding: 15px;
+    text-align: center;
+    color: orange;
+    text-shadow: 5px 0px 1px red, 7px 3px 3px black, 9px 6px 6px green;
+    box-shadow: 13px 13px 100px blue inset;
+    border: 15px solid pink;
+    border-radius: 168px;
+    outline: 7px solid red;
+    outline-offset: 4px;
+}
+ .hi-hero, .hi-john, span{
+    color: black;
+    font-size:140px;
+    text-shadow: 4px 9px 21px red, 6px 2px 3px black, 2px 30px 33px blue;
+    
+}
+.HERO .container h2{
+    color: red;
+    font-size: 55px;
+    text-shadow: 3px 1px 3px black, 3px 4px 3px black, 7px 7px 8px blue;
+}
+hr.new1{
+    margin-top: 25px;
+ border: 3px double rgb(5, 6, 5);
+}
+.new h2{
+    font-size: 24px;
+    text-align: center;
+}
+hr.new3{
+    /* margin-top: 10px; */
+ border: 3px double rgb(5, 6, 5);
+}
+
+.h-card{
+    display: flex;
+    margin: 2rem 1rem;
+    box-shadow: opx 5px 4px rgba(240, 36, 145, 0.25);
+    align-items: center;
+    border: 4px solid red;
+    box-shadow: 7px 7px 115px black inset;
+    border-radius: 0.5rem;
+    outline: 9px solid black;
+    outline-offset: 0px;
+    background-color: lightgreen;
+    overflow: auto;
+}
+.card-content{
+    padding: 3rem;
+    display: flex;  
+    flex-direction: column;
+    gap: 1rem;
+}
+.card-content h2{
+    font-size: 37px;
+    text-align: left;
+}
+.card-content p{
+     font-size: 17px;
+     text-align: justify;
+     color: maroon;
+     font-style: italic;
+     font-weight: 300;
+     
+}
+.status{
+     display: flex;
+     justify-content: space-between;
+}
+.status p{
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
+.read-btn{
+    /* all: unset; */
+    all: inherit;
+    font-weight: 600;
+    border: 3px solid transparent;
+    font-size: 25px;    
+
+}
+.read-btn:hover{
+    color: white;
+    border: 2px solid red;    
+    background-color: black;
+    border-radius: 10px; 
+    font-size: 22px;
+    cursor: pointer;
+}
+.h-card img{
+    width: 326px;
+    border: 4px solid black;
+    border-radius: 10px 65px 10px 65px;
+    margin-right: 60px;
+    outline:2px solid blue;
+    outline-offset: 1px;
+}
+.h-card img:hover{
+    border: 5px solid red;
+    cursor: pointer;
+}
+
+hr.new2{
+    margin-top: 25px;
+ border: 3px double black;
+}
+.heart h2{
+    font-size: 24px;
+    text-align: center;
+}
+hr.new4{
+    /* margin-top: 10px; */
+ border: 3px double black;
+}
+
+.card-section{
+    margin-top: -83px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.card-section .container {
+    font-size: 40px;
+    margin-top: 110px;
+    /* margin-left: 213px; */
+    padding: 15px;
+    text-align: center;
+    color: orange;
+    text-shadow: 5px 0px 1px red, 7px 3px 3px black, 9px 6px 6px green;
+    /* border: 15px solid rgb(154, 154, 253); */
+    border: 18px double black;
+    box-shadow: 12px 12px 125px yellow inset;
+    border-radius: 43px;
+    outline: 7px solid red;
+    outline-offset: 4px;
+}
+.card-section h2{
+        color: red;
+        font-size: 55px;
+        text-shadow: 3px 1px 3px black, 3px 4px 3px black, 7px 7px 8px blue;
+    
+}
+.card-section p{
+    color: lightgreen;
+}
+
+/* two-section  */
+
+.two-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .two-section .container{
+display: flex;
+} */
+.two-section h2{
+text-align: center;
+color: black;
+    font-size:140px;
+    text-shadow: 2px 9px 21px red, 4px 1px 18px black, 4px 6px 17px blue;
+font-size: 80px;
+font-weight: bold;
+margin-top: 15px;
+}
+.two-section p{
+text-align: center;
+color: rgb(5, 5, 69);
+font-size: 50px;
+margin-top: 33px;
+font-weight: 400;
+text-shadow: 2px 2px 3px white;
+text-decoration: underline 2px solid black;
+}
+
+.icon{
+    display: flex;
+    gap: 19px;
+    /* margin-left: 66rem; */
+    justify-content: end;
+    margin-right: 45px;
+}   
+.icon h5{
+    color: black;
+    font-size: 45px;
+     margin-right: 41rem;
+     margin-top: 20px;
+     text-shadow: 2px 2px 0px red, 1px 4px 4px black, 4px 6px 3px green;
+}
+.icon .facebook{
+    color: rgb(0, 0, 207);
+    text-align: right;
+    font-size: 75px;
+    list-style: none;
+    
+}
+.icon .twitter{
+    color: black;
+    text-align: right;
+    font-size: 75px;
+    list-style: none;
+}
+.icon .whatsapp{
+    color: rgb(6, 113, 6);
+    text-align: right;
+    font-size: 75px;
+    list-style: none;
+}
+.icon .facebook:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+
+}
+.icon .twitter:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.icon .whatsapp:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+
+.img-2 p{
+    color: black;
+    font-size: 65px;
+    text-align: center;
+    margin-top: -97px;
+    text-shadow: 4px 4px 1px black, 1px 2px 2px red, 6px 5px 12px green;
+}
+.img-2 img{
+    width: 97%;
+    height: 36rem;
+    border: 4px solid black;
+    border-radius: 50px;
+    margin-left: 17px;
+    box-shadow: 4px 5px 123px blue;
+}
+.img-2 img:hover{
+    box-shadow: 4px 5px 123px yellow;
+}
+
+
+/* story  */
+.introduction{
+    margin-left: 44px;
+    margin-right: 44px;
+}
+.introduction h1{
+    text-align: center;
+    font-size: 55px;
+    color: black;
+    text-shadow: 3px 2px 5px blue;
+    margin-top: 12px;
+}
+.introduction h3{
+    color: black;
+    text-shadow: 3px 2px 5px blue;
+font-size: 44px;
+margin-top: 25px;
+}
+.introduction p{
+color: black;
+font-size: 24px;
+text-align: justify;
+text-indent: 70px;
+text-shadow: 2px 2px 3px lightgreen;
+
+}
+.introduction img{
+    width: 19rem;
+    height: 16rem;
+    float: right;
+    border-radius: 47px 0px 47px 0px;
+    border: 4px solid black;
+    margin: 21px 0 10px 26px;
+    box-shadow: 5px 5px 55px blue;
+}
+.introduction img:hover{
+    border: 5px solid rgb(82, 12, 187);
+    outline: 3px solid green;
+    outline-offset: 2px ;
+    box-shadow: 5px 5px 55px yellow;
+}
+.love1{
+    margin-left: 44px;
+    margin-right: 44px;
+}
+.love1 h3{
+    color: black;
+    text-shadow: 3px 2px 5px blue;
+font-size: 44px;
+margin-top: 45px;
+}
+.love1 p{
+color: black;
+font-size: 24px;
+text-align: justify;
+text-indent: 70px;
+text-shadow: 2px 2px 3px rgb(243, 243, 90);
+}
+.love1 img{
+    width: 21rem;
+    height: 21rem;
+    float: right;
+    border-radius: 50px 0px 50px 0px; 
+    border: 3px solid black;
+    margin: 21px 0 10px 26px;
+     box-shadow: 5px 5px 100px green;
+}
+.love1 img:hover{
+    /* border: 5px solid rgb(82, 12, 187); */
+    outline: 4px solid black;
+    outline-offset: 2px ;
+    box-shadow: 5px 5px 55px blue;
+}
+.love2{
+    margin-left: 44px;
+    margin-right: 44px;
+}
+.love2 h3{
+    color: black;
+    text-shadow: 3px 2px 5px blue;
+font-size: 44px;
+margin-top: 45px;
+}
+.love2 p{
+color: black;
+font-size: 24px;
+text-align: justify;
+text-indent: 70px;
+text-shadow: 2px 2px 3px rgb(222, 217, 217);
+}
+.love2 img{
+    width: 26rem;
+    height: 20rem;
+    float: right;
+    /* border-radius: 47px 0px 47px 0px; */
+    border-radius: 50%;
+    border: 8px solid black;
+    margin: 21px 0 10px 26px;
+     box-shadow: 5px 5px 100px blue;
+}
+.love2 img:hover{
+    border: 5px solid rgb(82, 12, 187);
+    outline: 4px solid black;
+    outline-offset: 2px ;
+    box-shadow: 5px 5px 55px yellow;
+}
+.love3{
+    margin-left: 44px;
+    margin-right: 44px;
+}
+.love3 h3{
+    color: black;
+    text-shadow: 3px 2px 5px blue;
+font-size: 44px;
+margin-top: 45px;
+}
+.love3 p{
+color: black;
+font-size: 24px;
+text-align: justify;
+text-indent: 70px;
+text-shadow: 2px 2px 3px pink;
+}
+.love4{
+    margin-left: 44px;
+    margin-right: 44px;
+}
+.love4 h3{
+    color: black;
+    text-shadow: 3px 2px 5px blue;
+font-size: 44px;
+margin-top: 45px;
+}
+.love4 p{
+color: black;
+font-size: 24px;
+text-align: justify;
+text-indent: 70px;
+text-shadow: 2px 2px 3px rgb(251, 129, 84);
+}
+.love4 img{
+    width: 20rem;
+    height: 16rem;
+    float: right;
+    border-radius: 50px 0px 50px 0px;
+    /* border-radius: 50%; */
+    border: 3px solid black;
+    margin: 21px 0 10px 26px;
+     box-shadow: 5px 5px 100px green;
+}
+.love4 img:hover{
+    /* border: 5px solid rgb(82, 12, 187); */
+    outline: 4px solid black;
+    outline-offset: 2px ;
+    box-shadow: 5px 5px 55px blue;
+}
+.love5{
+    margin-left: 44px;
+    margin-right: 44px;
+}
+.love5 h3{
+    color: black;
+    text-shadow: 3px 2px 5px blue;
+font-size: 44px;
+margin-top: 45px;
+}
+.love5 p{
+color: black;
+font-size: 24px;
+text-align: justify;
+text-indent: 70px;
+text-shadow: 2px 2px 3px rgb(84, 226, 251);
+}
+.love5 img{
+    width: 20rem;
+    height: 25rem;
+    float: right;
+    border-radius: 50px 0px 50px 0px;
+    /* border-radius: 50%; */
+    border: 3px solid black;
+    margin: 21px 0 10px 26px;
+     box-shadow: 5px 5px 100px black;
+}
+.love5 img:hover{
+    /* border: 5px solid rgb(82, 12, 187); */
+    outline: 4px solid blue;
+    outline-offset: 2px ;
+    box-shadow: 5px 5px 55px green;
+}
+.love6{
+    margin-left: 44px;
+    margin-right: 44px;
+}
+.love6 h3{
+    color: black;
+    text-shadow: 3px 2px 5px blue;
+font-size: 44px;
+margin-top: 45px;
+}
+.love6 p{
+color: black;
+font-size: 24px;
+text-align: justify;
+text-indent: 70px;
+text-shadow: 2px 2px 3px rgb(245, 78, 78);
+}
+.love6 img{
+    width: 21rem;
+    height: 21rem;
+    float: right;
+    border-radius: 12px; 
+    border: 3px solid black;
+    margin: 21px 0 10px 26px;
+     box-shadow: 5px 5px 100px red;
+}
+.love6 img:hover{
+    /* outline: 4px solid black; */
+    outline-offset: 2px ;
+    box-shadow: 5px 5px 55px yellow;
+}
+
+hr.new5{
+    margin-top: 25px;
+ border: 3px double black;
+}
+.heart h4{
+    font-size: 24px;
+    text-align: center;
+}
+hr.new6{
+    /* margin-top: 10px; */
+ border: 3px double black;
+}
+
+/* black box  */
+
+.black_box{
+    background-color: black;
+    padding: 20px;
+    margin-top: 25px;
+    border: 3px solid red;
+    box-shadow: 9px 9px 35px  blue inset;
+}
+
+.black_box h5{
+   font-size: 29px;
+    color: blue;
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 2px 1px 0px white;
+}
+
+/* bottom section  */
+
+.bottom-section{
+    display: flex;
+    gap: 168px;
+    background-color: gray;
+    border: 4px solid black;
+    
+}
+.bottom-section h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 1px -1px 3px blue, 2px 3px 1px red, 1px 3px 2px black
+}
+.information{
+    margin-left: 45px;
+}
+
+.information p{
+    color: black;
+    font-size: 20px;
+    margin-left: 27px;
+
+}
+.information p span{
+    font-size: 25px;
+    color: black;
+    text-shadow: 3px 1px 1px red, 2px 0px 2px black;
+}
+
+.contact p{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 38px;
+}
+.contact p span{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px red, 2px 0px 2px black;
+
+}
+.contact ul{
+    list-style: inside;
+    line-height: 30px;
+    list-style: none;
+}
+.contact li{
+    letter-spacing: 7px;
+}
+.contact li span{
+    font-size: 18px;
+    text-shadow: 2px 2px 2px blue;
+}
+
+/* footer  */
+footer{
+    font-size: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 12px;
+    color: aqua;
+    letter-spacing: 2px;
+     box-shadow: 5px 5px 39px blue inset;
+     text-shadow: 1px 2px 5px white, 3px 0px 0px red;
+}
+
+
+
