@@ -261,7 +261,8 @@ text-decoration: underline 2px solid black;
 .icon ul{
     justify-content: end;
     display: flex;
-    margin-left: 45rem;
+/*     margin-left: 45rem; */
+    justify-content: space-between;
     gap: 19px;
 }
 .icon .facebook{
@@ -727,8 +728,8 @@ footer{
 }
 .icon ul{
     display: flex;
-    margin-left:150px;
-    justify-content: flex-start;
+/*     margin-left:150px; */
+    justify-content: center;
 }
 .img-2{
     width: 94%;
