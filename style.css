@@ -125,12 +125,13 @@ hr.new3{
     text-align: left;
 }
 .card-content p{
-    margin-top: 10px;
+    
      font-size: 17px;
      text-align: justify;
      color: maroon;
      font-style: italic;
      font-weight: 300;
+     margin-top: 10px;
      
 }
 .status{
@@ -149,7 +150,7 @@ hr.new3{
     all: inherit;
     font-weight: 600;
     border: 3px solid transparent;
-    font-size: 25px; 
+    font-size: 25px;   
     margin-right: 60px; 
     margin-top: 10px;
 
@@ -166,7 +167,7 @@ hr.new3{
     width: 326px;
     border: 4px solid black;
     border-radius: 10px 65px 10px 65px;
-/*     margin-right: 60px; */
+    /* margin-right: 60px; */
     outline:2px solid blue;
     outline-offset: 1px;
 }
@@ -252,6 +253,7 @@ text-decoration: underline 2px solid black;
     display: flex;
     /* gap: 19px; */
     /* margin-left: 66rem; */
+    justify-content: space-between;
 }   
 .icon h5{
     color: black;
@@ -264,8 +266,8 @@ text-decoration: underline 2px solid black;
 .icon ul{
     justify-content: end;
     display: flex;
-/*     margin-left: 45rem; */
-    justify-content: space-between;
+    /* margin-left: 45rem; */
+    /* justify-content: space-between; */
     gap: 19px;
 }
 .icon .facebook{
@@ -664,6 +666,8 @@ footer{
    .HERO .container {
     font-size: 20px;
     margin-top: 21px;
+    margin-left: 13px;
+    margin-right: 14px;
     
 }
  .hi-hero, .hi-john, span{
@@ -674,7 +678,7 @@ footer{
 }
 .HERO .container h2{
     color: red;
-    font-size: 45px;
+    font-size: 35px;
     text-shadow: 3px 1px 3px black, 3px 4px 3px black, 7px 7px 8px blue;
 }
 .introduction img{
@@ -731,7 +735,7 @@ footer{
 }
 .icon ul{
     display: flex;
-/*     margin-left:150px; */
+    /* margin-left:150px; */
     justify-content: center;
 }
 .img-2{
@@ -752,6 +756,7 @@ footer{
 .h-card{
     display: flex;
     flex-direction: column;
+
 }
 .h-card img{
     float: left;
@@ -764,11 +769,12 @@ footer{
 }
 .card-content p{
     font-size: 17px;
-/*      margin-left: 18px;
+    /* margin-left: 18px;
     margin-right: 18px; */
 }
 .read-btn{
     font-size: 20px;
+
 }
 .card-content{
     padding: 3rem;
