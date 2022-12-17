@@ -125,7 +125,7 @@ hr.new3{
     text-align: left;
 }
 .card-content p{
-    
+    margin-top: 10px;
      font-size: 17px;
      text-align: justify;
      color: maroon;
@@ -142,13 +142,16 @@ hr.new3{
     border-bottom: 2px solid black;
     color: black;
     font-weight: bold;
+    margin-top: 10px;
 }
 .read-btn{
     /* all: unset; */
     all: inherit;
     font-weight: 600;
     border: 3px solid transparent;
-    font-size: 25px;    
+    font-size: 25px; 
+    margin-right: 60px; 
+    margin-top: 10px;
 
 }
 .read-btn:hover{
