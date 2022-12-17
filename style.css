@@ -709,15 +709,21 @@ footer{
 .bottom-section{
     display: block;
 }
+.bottom-section h2{
+    margin-left: -23px;
+}
+.information p{
+    margin-left: -24px;
+}
 .contact p{
     word-wrap: break-word;
-    margin-left: 62px;
+    margin-left: 20px;
 }
 .contact ul{
-    margin-left: 62px;
+    margin-left: 20px;
 }
 .contact h2{
-    margin-left: 62px;
+    margin-left: 12px;
     margin-top: 60px;
 }
 .icon{
@@ -738,16 +744,16 @@ footer{
     /* margin-left:150px; */
     justify-content: center;
 }
-.img-2{
-    width: 94%;
+.img-2 img{
+    width: 92%;
     height: 38rem;
 }
 .img-2 p{
     color: black;
-    font-size: 32px;
+    font-size: 23px;
     text-align: center;
-    margin-top: -105px;
-    text-shadow: 1px 2px 1px black, 2px 2px 3px red, 3px 4px 10px green;
+    margin-top: -83px;
+    text-shadow: 0px 0px 0px black, 2px 2px 2px red, 1px 3px 7px green
 }
 .introduction h1{
     font-size: 32px;
