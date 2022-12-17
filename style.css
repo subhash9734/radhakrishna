@@ -111,7 +111,7 @@ hr.new3{
     outline: 9px solid black;
     outline-offset: 0px;
     background-color: lightgreen;
-    overflow: auto;
+/*     overflow: auto; */
 }
 .card-content{
     padding: 3rem;
