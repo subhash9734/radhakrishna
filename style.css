@@ -764,8 +764,8 @@ footer{
 }
 .card-content p{
     font-size: 17px;
-     margin-left: 18px;
-    margin-right: 18px;
+/*      margin-left: 18px;
+    margin-right: 18px; */
 }
 .read-btn{
     font-size: 20px;
@@ -776,6 +776,8 @@ footer{
     flex-direction: column;
     gap: 1rem;
     position: sticky;
+    margin-left: 31px;
+    margin-right: 31px;
 }
 }
 
