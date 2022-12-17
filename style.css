@@ -672,13 +672,13 @@ footer{
 }
  .hi-hero, .hi-john, span{
     color: black;
-    font-size:67px;
+    font-size:55px;
     text-shadow: 4px 9px 21px red, 6px 2px 3px black, 2px 30px 33px blue;
     
 }
 .HERO .container h2{
     color: red;
-    font-size: 35px;
+    font-size: 27px;
     text-shadow: 3px 1px 3px black, 3px 4px 3px black, 7px 7px 8px blue;
 }
 .introduction img{
