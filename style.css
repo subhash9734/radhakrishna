@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-*{  
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -270,6 +270,7 @@ text-decoration: underline 2px solid black;
     text-align: right;
     font-size: 75px;
     list-style: none;
+    
 }
 .icon .twitter{
     color: black;
@@ -680,12 +681,20 @@ footer{
 .introduction img{
     width: 15rem;
 }
+.introduction h3{
+    text-shadow: 2px 1px 3px blue;
+    font-size: 30px;
+}
 .introduction p{
     font-size: 18px;
 }
 
 .love1 img{
     width: 15rem;
+}
+.love1 h3{
+    text-shadow: 2px 1px 3px blue;
+    font-size: 30px;
 }
 .love1 p{
     font-size: 18px;
@@ -694,11 +703,23 @@ footer{
     width: 17rem;
     height: 18rem;
 }
+.love2 h3{
+    text-shadow: 2px 1px 3px blue;
+    font-size: 30px;
+}
 .love2 p{
     font-size: 18px;
 }
+.love3 h3{
+    text-shadow: 2px 1px 3px blue;
+    font-size: 30px;
+}
 .love3 p{
     font-size: 18px;
+}
+.love4 h3{
+    text-shadow: 2px 1px 3px blue;
+    font-size: 30px;
 }
 .love4 p{
     font-size: 18px;
@@ -709,12 +730,20 @@ footer{
 .love5 p{
     font-size: 18px;
 }
+.love5 h3{
+    text-shadow: 2px 1px 3px blue;
+    font-size: 30px;
+}
 .love5 img{
     width: 15rem;
     height: 25rem;
 }
 .love6 p{
     font-size: 18px;
+}
+.love6 h3{
+    text-shadow: 2px 1px 3px blue;
+    font-size: 30px;
 }
 .love6 img{
     width: 15rem;
@@ -727,7 +756,7 @@ footer{
 }
 .bottom-section h2{
     margin-top: 6px;
-     margin-bottom: 7px;
+    margin-bottom: 7px;
     margin-left: -23px;
     font-size: 27px;
     text-shadow: 0px 0px 2px blue, 1px 1px 1px red, 1px 2px 2px black;
@@ -844,7 +873,7 @@ footer{
     text-shadow: 1px 0px 0px white;
 }
 footer{
-    font-size: 15px;
+    font-size: 16px;
     box-shadow: 2px 3px 10px blue inset;
     text-shadow: 1px 1px 2px white, 2px 0px 0px red;
 }
