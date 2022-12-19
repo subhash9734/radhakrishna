@@ -5,12 +5,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 html,body{
     font-family: "Roboto" sans-serif;
     line-height: 1.4;
     font-weight: 300;
-    scroll-behavior: smooth;   
+    scroll-behavior: smooth;
  background-color: grey;
 
 }
@@ -111,7 +112,7 @@ hr.new3{
     outline: 9px solid black;
     outline-offset: 0px;
     background-color: lightgreen;
-/*     overflow: auto; */
+    /* overflow: auto; */
 }
 .card-content{
     padding: 3rem;
@@ -672,7 +673,7 @@ footer{
 }
  .hi-hero, .hi-john, span{
     color: black;
-    font-size:43px;
+    font-size:55px;
     text-shadow: 4px 9px 21px red, 6px 2px 3px black, 2px 30px 33px blue;
     
 }
@@ -763,7 +764,7 @@ footer{
 .h-card{
     display: flex;
     flex-direction: column;
-
+    
 }
 .h-card img{
     float: left;
@@ -788,10 +789,10 @@ footer{
     display: flex;  
     flex-direction: column;
     gap: 1rem;
-    position: sticky;
     margin-left: 31px;
     margin-right: 31px;
-}
+              
 }
 
- 
+}
+
