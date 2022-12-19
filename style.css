@@ -766,7 +766,7 @@ footer{
 }
 .read-btn{
     font-size: 20px;
-
+    margin-right: 1px;
 }
 .card-content{
     padding: 3rem;
