@@ -788,6 +788,15 @@ footer{
     .two-section p{
     font-size: 35px;
 }
-
+.black_box h5{
+    font-size: 19px;
+    text-shadow: 1px 0px 0px white;
+}
+footer{
+    font-size: 16px;
+    box-shadow: 2px 3px 10px blue inset;
+    text-shadow: 1px 1px 2px white, 2px 0px 0px red;
+}
+    
 }
 
