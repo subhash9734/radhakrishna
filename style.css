@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-      
 }
 html,body{
     font-family: "Roboto" sans-serif;
@@ -13,7 +12,6 @@ html,body{
     font-weight: 300;
     scroll-behavior: smooth;
  background-color: grey;
-
 }
 
 header{
@@ -36,19 +34,14 @@ header{
 .hero{
     display: flex;
     gap: 44px;
-  
 }
 .hero h1{
     text-align: center;
     font-size: 31px;
-    /* color: green; */
-   
 }
 .hero h2{
         text-align: right;
-        font-size: 30px;
-        
-        
+        font-size: 30px;    
 }
 .hero h3{
       text-align: left;
