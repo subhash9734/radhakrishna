@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+      
 }
 html,body{
     font-family: "Roboto" sans-serif;
@@ -212,7 +212,7 @@ hr.new4{
     outline: 7px solid red;
     outline-offset: 4px;
 }
-.card-section h2{
+.card-section h2{  
         color: red;
         font-size: 55px;
         text-shadow: 3px 1px 3px black, 3px 4px 3px black, 7px 7px 8px blue;
