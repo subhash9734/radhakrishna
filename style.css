@@ -785,6 +785,9 @@ footer{
     font-size: 28px;
     text-shadow: 3px 2px 3px red, 2px 1px 2px black, 2px 4px 5px blue;
 }
+    .two-section p{
+    font-size: 35px;
+}
 
 }
 
