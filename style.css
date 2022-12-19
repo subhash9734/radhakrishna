@@ -723,6 +723,7 @@ footer{
 }
 .bottom-section{
     display: block;
+    margin-left: 10px;
 }
 .bottom-section h2{
     margin-top: 6px;
