@@ -725,6 +725,8 @@ footer{
     display: block;
 }
 .bottom-section h2{
+    margin-top: 6px;
+     margin-bottom: 7px;
     margin-left: -23px;
     font-size: 27px;
     text-shadow: 0px 0px 2px blue, 1px 1px 1px red, 1px 2px 2px black;
@@ -736,21 +738,25 @@ footer{
 .contact p{
     word-wrap: break-word;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 11px;
 }
 .information p span{
     font-size: 12px;
+    color: black;
+    font-weight: bold;
 
 }
 .contact p span{
     font-size: 12px;
+    color: black;
+    font-weight: bold;
 }
 .contact ul{
     margin-left: 20px;
 }
 .contact h2{
     margin-left: 12px;
-    margin-top: 60px;
+    margin-top: 15px;
 }
 .icon{
     display: inline;
@@ -818,11 +824,11 @@ footer{
               
 }
 .card-section .container p{
-    font-size: 27px;
+    font-size: 22px;
     text-shadow: 2px 1px 0px red, 2px 3px 2px black, 2px 3px 0px green;
 }
 .card-section h2{
-    font-size: 41px;
+    font-size: 32px;
 }
 .two-section h2{
     font-size: 28px;
@@ -837,7 +843,7 @@ footer{
     text-shadow: 1px 0px 0px white;
 }
 footer{
-    font-size: 16px;
+    font-size: 15px;
     box-shadow: 2px 3px 10px blue inset;
     text-shadow: 1px 1px 2px white, 2px 0px 0px red;
 }
