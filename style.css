@@ -787,10 +787,14 @@ footer{
     padding: 3rem;
     display: flex;  
     flex-direction: column;
-    gap: 1rem;
-    margin-left: 31px;
-    margin-right: 31px;
-              
+    gap: 1rem;           
+}
+    .card-section .container p{
+    font-size: 27px;
+    text-shadow: 2px 1px 0px red, 2px 3px 2px black, 2px 3px 0px green;
+}
+.card-section h2{
+    font-size: 41px;
 }
 
 }
