@@ -4,14 +4,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;     
+    box-sizing: border-box;
+
+    
 }
 html,body{
     font-family: "Roboto" sans-serif;
     line-height: 1.4;
-    font-weight: 300;    
+    font-weight: 300;
     scroll-behavior: smooth;
  background-color: grey;
+
 }
 
 header{
@@ -29,19 +32,25 @@ header{
     display: inline-block;
     margin-top: 5px;
     box-shadow: 8px 8px 44px blue inset;
+
 }
 
 .hero{
     display: flex;
     gap: 44px;
+  
 }
 .hero h1{
     text-align: center;
     font-size: 31px;
+    /* color: green; */
+   
 }
 .hero h2{
         text-align: right;
-        font-size: 30px;    
+        font-size: 30px;
+        
+        
 }
 .hero h3{
       text-align: left;
@@ -97,7 +106,7 @@ hr.new3{
     outline: 9px solid black;
     outline-offset: 0px;
     background-color: lightgreen;
-    /* overflow: auto; */
+    /* overflow: auto;   */
 }
 .card-content{
     padding: 3rem;
@@ -197,7 +206,7 @@ hr.new4{
     outline: 7px solid red;
     outline-offset: 4px;
 }
-.card-section h2{  
+.card-section h2{
         color: red;
         font-size: 55px;
         text-shadow: 3px 1px 3px black, 3px 4px 3px black, 7px 7px 8px blue;
@@ -633,11 +642,13 @@ footer{
 }
 
 @media only screen and (max-width: 600px), (max-width:200px){
+ 
     header{
         padding: 15px;
         width: 100vw;
         position: relative;
     }
+    
     .hero{
         display: block;
     }
@@ -670,23 +681,42 @@ footer{
 .introduction img{
     width: 15rem;
 }
+.introduction p{
+    font-size: 18px;
+}
+
 .love1 img{
     width: 15rem;
+}
+.love1 p{
+    font-size: 18px;
 }
 .love2 img{
     width: 17rem;
     height: 18rem;
 }
+.love2 p{
+    font-size: 18px;
+}
+.love3 p{
+    font-size: 18px;
+}
+.love4 p{
+    font-size: 18px;
+}
 .love4 img{
     width: 15rem;
-
-    
+}
+.love5 p{
+    font-size: 18px;
 }
 .love5 img{
     width: 15rem;
     height: 25rem;
 }
-
+.love6 p{
+    font-size: 18px;
+}
 .love6 img{
     width: 15rem;
     height: 15rem;
@@ -697,13 +727,24 @@ footer{
 }
 .bottom-section h2{
     margin-left: -23px;
+    font-size: 27px;
+    text-shadow: 0px 0px 2px blue, 1px 1px 1px red, 1px 2px 2px black;
 }
 .information p{
     margin-left: -24px;
+    font-size: 14px;
 }
 .contact p{
     word-wrap: break-word;
     margin-left: 20px;
+    font-size: 14px;
+}
+.information p span{
+    font-size: 12px;
+
+}
+.contact p span{
+    font-size: 12px;
 }
 .contact ul{
     margin-left: 20px;
@@ -755,39 +796,43 @@ footer{
     float: left;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .card-content h2{
     text-align: center;
-
+   
 }
 .card-content p{
     font-size: 17px;
-    
+
 }
 .read-btn{
     font-size: 20px;
     margin-right: 1px;
+
 }
 .card-content{
     padding: 3rem;
     display: flex;  
     flex-direction: column;
-    gap: 1rem;           
+    gap: 1rem;
+              
 }
-    .card-section .container p{
-    font-size: 22px;
+.card-section .container p{
+    font-size: 27px;
     text-shadow: 2px 1px 0px red, 2px 3px 2px black, 2px 3px 0px green;
 }
 .card-section h2{
-    font-size: 34px;
+    font-size: 41px;
 }
-    .two-section h2{
+.two-section h2{
     font-size: 28px;
     text-shadow: 3px 2px 3px red, 2px 1px 2px black, 2px 4px 5px blue;
 }
-    .two-section p{
-    font-size: 35px;
+.two-section p{
+    font-size: 23px;
 }
+
 .black_box h5{
     font-size: 19px;
     text-shadow: 1px 0px 0px white;
@@ -797,6 +842,6 @@ footer{
     box-shadow: 2px 3px 10px blue inset;
     text-shadow: 1px 1px 2px white, 2px 0px 0px red;
 }
-    
+
 }
 
