@@ -266,37 +266,119 @@ text-decoration: underline 2px solid black;
     gap: 19px;
 }
 .icon .facebook{
-    color: rgb(0, 0, 207);
+    /* color: rgb(0, 0, 207);
     text-align: right;
     font-size: 75px;
-    list-style: none;
+    list-style: none; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;     color: #214592;
+    font-size: 40px;
+    background: rgb(220, 217, 217);
+    text-align: center;
     
 }
 .icon .twitter{
-    color: black;
+    /* color: black;
     text-align: right;
     font-size: 75px;
-    list-style: none;
+    list-style: none; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; color: #00acee;
+    font-size: 40px;
+    background: rgb(220, 217, 217);
+    text-align: center;
 }
 .icon .whatsapp{
-    color: rgb(6, 113, 6);
+    /* color: rgb(6, 113, 6);
     text-align: right;
     font-size: 75px;
-    list-style: none;
+    list-style: none; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;     color: rgb(16, 179, 16);
+    font-size: 40px;
+    background: rgb(220, 217, 217);
+    text-align: center;
 }
+.icon .Instagram{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;     
+    color: rgb(186, 53, 75);
+    font-size: 40px;
+    background: rgb(220, 217, 217);
+    text-align: center;
+}
+.icon .youtube{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;     
+    color: rgb(85, 21, 141);
+    font-size: 40px;
+    background: rgb(220, 217, 217);
+    text-align: center;
+}
+
 .icon .facebook:hover{
     cursor: pointer;
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
+
+    /* transform: scale(1.5); */
+    transition: .7s;
+    background-color: #214592;
+    color: white;
 
 }
 .icon .twitter:hover{
     cursor: pointer;
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
+
+    transition: .7s;
+    background-color: #00acee;
+    color: white;
 }
 
 .icon .whatsapp:hover{
     cursor: pointer;
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
+
+    transition: .7s;
+    background-color: rgb(16, 179, 16);
+    color: white;
+}
+.icon .Instagram:hover{
+    cursor: pointer;
+    transition: .7s;
+    background-color: rgb(186, 53, 75);
+    color: white;
+}
+.icon .youtube:hover{
+    cursor: pointer;
+    transition: .7s;
+    background-color: red;
+    color: white;
 }
 
 
@@ -609,7 +691,7 @@ hr.new6{
     line-height: 38px;
 }
 .contact p span{
-    color: black;
+    color: black;         
     font-size: 30px;
     font-weight: bold;
     text-shadow: 0px 1px 1px red, 2px 0px 2px black;
